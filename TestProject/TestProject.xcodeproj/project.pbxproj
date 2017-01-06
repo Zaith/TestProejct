@@ -14,6 +14,7 @@
 		BE66DCEA1E1F557D0050EB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE66DCE81E1F557D0050EB4C /* LaunchScreen.storyboard */; };
 		BE66DCF51E1F557D0050EB4C /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66DCF41E1F557D0050EB4C /* TestProjectTests.swift */; };
 		BE66DD001E1F557D0050EB4C /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66DCFF1E1F557D0050EB4C /* TestProjectUITests.swift */; };
+		BE66DD0E1E1F5B130050EB4C /* PicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66DD0D1E1F5B130050EB4C /* PicVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE66DCFB1E1F557D0050EB4C /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE66DCFF1E1F557D0050EB4C /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		BE66DD011E1F557D0050EB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE66DD0D1E1F5B130050EB4C /* PicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BE66DCDF1E1F557D0050EB4C /* AppDelegate.swift */,
 				BE66DCE11E1F557D0050EB4C /* ViewController.swift */,
+				BE66DD0D1E1F5B130050EB4C /* PicVC.swift */,
 				BE66DCE31E1F557D0050EB4C /* Main.storyboard */,
 				BE66DCE61E1F557D0050EB4C /* Assets.xcassets */,
 				BE66DCE81E1F557D0050EB4C /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE66DCE21E1F557D0050EB4C /* ViewController.swift in Sources */,
+				BE66DD0E1E1F5B130050EB4C /* PicVC.swift in Sources */,
 				BE66DCE01E1F557D0050EB4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,7 @@
 				BE66DD061E1F557D0050EB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE66DD071E1F557D0050EB4C /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				BE66DD091E1F557D0050EB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE66DD0A1E1F557D0050EB4C /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				BE66DD0C1E1F557D0050EB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
