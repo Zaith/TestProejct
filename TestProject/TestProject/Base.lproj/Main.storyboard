@@ -49,6 +49,38 @@
             </objects>
         </scene>
         <!--View Controller-->
+        <scene sceneID="wBa-n2-MfK">
+            <objects>
+                <viewController id="Mex-WM-aYZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eoe-qu-6n5"/>
+                        <viewControllerLayoutGuide type="bottom" id="XpO-nL-UcA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0SC-Zf-OxU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="item1" translatesAutoresizingMaskIntoConstraints="NO" id="1ZW-xs-BGQ">
+                                <rect key="frame" x="16" y="55" width="343" height="557"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngg-Lx-yZH">
+                                <rect key="frame" x="164" y="629" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="XsU-Db-Gpv" kind="show" id="WMc-2s-EdL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hb6-OI-Ow0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2010" y="36"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="2Q1-4a-vz3">
             <objects>
                 <viewController id="XsU-Db-Gpv" sceneMemberID="viewController">
@@ -73,11 +105,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrI-f6-qPH">
-                                <rect key="frame" x="170" y="495" width="34" height="30"/>
+                                <rect key="frame" x="123" y="513" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Check out this pic!"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="IiJ-SO-1vB"/>
+                                    <segue destination="Mex-WM-aYZ" kind="presentation" modalTransitionStyle="crossDissolve" id="7Gy-lS-7fP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,7 +118,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zI9-39-NEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848.79999999999995" y="122.78860569715144"/>
+            <point key="canvasLocation" x="849" y="36"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="item1" width="237" height="355"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="WMc-2s-EdL"/>
+    </inferredMetricsTieBreakers>
 </document>
