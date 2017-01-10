@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++4ADF4C2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F" : 9223372036854775807
+    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++4ADF4C2" : 9223372036854775807,
+    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++142AEE4" : 9223372036854775807,
+    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++ECE3B1F" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AAF43F2C-77F2-4F73-B35A-198782196A8A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F" : ""
+    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++4ADF4C2" : "TestProject%20-%20Master\/",
+    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++142AEE4" : "",
+    "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++ECE3B1F" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TestProject",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zaith\/TestProject.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++142AEE4"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zaith\/TestProject.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++4ADF4C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zaith\/TestProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D50507C7D55FF799DEB131D3491EA69CCC7FB27F+++ECE3B1F"
     }
   ]
 }
