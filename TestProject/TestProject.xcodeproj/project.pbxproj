@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE5904731E500C3900A64037 /* Sembawang.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BE5904711E500C3900A64037 /* Sembawang.gpx */; };
+		BE5904741E500C3900A64037 /* Waterfront.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BE5904721E500C3900A64037 /* Waterfront.gpx */; };
 		BE66DCE01E1F557D0050EB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66DCDF1E1F557D0050EB4C /* AppDelegate.swift */; };
 		BE66DCE21E1F557D0050EB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66DCE11E1F557D0050EB4C /* ViewController.swift */; };
 		BE66DCE51E1F557D0050EB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE66DCE31E1F557D0050EB4C /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE5904711E500C3900A64037 /* Sembawang.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sembawang.gpx; sourceTree = "<group>"; };
+		BE5904721E500C3900A64037 /* Waterfront.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Waterfront.gpx; sourceTree = "<group>"; };
 		BE66DCDC1E1F557D0050EB4C /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE66DCDF1E1F557D0050EB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE66DCE11E1F557D0050EB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		BE66DCD31E1F557D0050EB4C = {
 			isa = PBXGroup;
 			children = (
+				BE5904711E500C3900A64037 /* Sembawang.gpx */,
+				BE5904721E500C3900A64037 /* Waterfront.gpx */,
 				BE66DCDE1E1F557D0050EB4C /* TestProject */,
 				BE66DCF31E1F557D0050EB4C /* TestProjectTests */,
 				BE66DCFE1E1F557D0050EB4C /* TestProjectUITests */,
@@ -241,6 +247,8 @@
 				BE66DCEA1E1F557D0050EB4C /* LaunchScreen.storyboard in Resources */,
 				BE66DCE71E1F557D0050EB4C /* Assets.xcassets in Resources */,
 				BE66DCE51E1F557D0050EB4C /* Main.storyboard in Resources */,
+				BE5904731E500C3900A64037 /* Sembawang.gpx in Resources */,
+				BE5904741E500C3900A64037 /* Waterfront.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
